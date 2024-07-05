@@ -1,7 +1,7 @@
 public class FirstLevel {
-    private int id;
-    private MyEnum myEnum;
-    private ComplexType complexType;
+    private final int id;
+    private final MyEnum myEnum;
+    private final ComplexType complexType;
 
     public FirstLevel(int id, MyEnum myEnum, ComplexType complexType) {
         this.id = id;
@@ -23,6 +23,6 @@ public class FirstLevel {
 
     @Override
     public String toString() {
-        return "FirstLevel{id=" + id + ", myEnum=" + myEnum + ", complexType=" + complexType + "}";
+        return "FirstLeve{id=" + id + ", myEnum=" + myEnum + ", complexType=" + complexType + "}";
     }
 }
